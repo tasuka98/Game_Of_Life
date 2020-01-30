@@ -136,7 +136,7 @@ def playGOF():
 
     while(True):
         if (decision == 'Y' or decision == 'y'):
-            main()
+            playGOF()
         elif (decision == 'N' or decision == 'n'):
             exit()
         else:
